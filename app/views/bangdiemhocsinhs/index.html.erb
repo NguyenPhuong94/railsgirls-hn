@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Danh sách bảng điểm học sinh</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Lop</th>
+      <th>Sumary</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @bangdiemhocsinhs.each do |bangdiemhocsinh| %>
+      <tr>
+        <td><%= bangdiemhocsinh.Name %></td>
+        <td><%= bangdiemhocsinh.Date %></td>
+        <td><%= bangdiemhocsinh.Lop %></td>
+        <td><%= bangdiemhocsinh.Sumary %></td>
+        <td><%= link_to 'Show', bangdiemhocsinh %></td>
+        <td><%= link_to 'Edit', edit_bangdiemhocsinh_path(bangdiemhocsinh) %></td>
+        <td><%= link_to 'Destroy', bangdiemhocsinh, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bangdiemhocsinh', new_bangdiemhocsinh_path %>

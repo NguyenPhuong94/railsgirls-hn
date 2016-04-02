@@ -1,0 +1,2 @@
+module BangdiemhocsinhsHelper
+end

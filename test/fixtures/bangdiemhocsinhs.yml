@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Name: MyString
+  Date: MyText
+  Lop: MyString
+  Sumary: MyString
+
+two:
+  Name: MyString
+  Date: MyText
+  Lop: MyString
+  Sumary: MyString

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Họ: MyString
+  tên: MyString
+  Ngày: MyString
+  tháng: MyText
+  Lớp: MyString
+  Điểm: MyString
+  tổng: MyString
+  kết: 
+
+two:
+  Họ: MyString
+  tên: MyString
+  Ngày: MyString
+  tháng: MyText
+  Lớp: MyString
+  Điểm: MyString
+  tổng: MyString
+  kết: 
